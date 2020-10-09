@@ -1,0 +1,24 @@
+{
+    "VCAP_SERVICES": {
+        "p-config-server": [{
+            "binding_name": null,
+            "credentials": {
+                "access_token_uri": "{UUA Server URL}",
+                "client_id": "{AKA UAA Username}",
+                "client_secret": "{AKA UAA Password}",
+                "uri": "{Config Server URL}"
+            },
+            "instance_name": "dev-config-server",
+            "label": "p-config-server",
+            "name": "dev-config-server",
+            "plan": "standard",
+            "provider": null,
+            "syslog_drain_url": null,
+            "tags": [
+                "configuration",
+                "spring-cloud"
+            ],
+            "volume_mounts": []
+        }]
+    }
+}
